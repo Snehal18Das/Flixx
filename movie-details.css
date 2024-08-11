@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+
+.head
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 50px;
+	height: 90px;
+	background-color: black;
+}
+.logo
+{
+	font-size: 26px;
+	font-weight: 800;
+	font-family: 'Kanit', sans-serif;
+}
+.logo a
+{
+	text-decoration: none;
+	color: white;
+}
+.titles
+{
+	display: flex;
+	flex-direction: row;
+	font-size: 18px;
+	font-family: candara;
+	padding-top: 5px;
+}
+.titles div:nth-child(1)
+{
+	padding-right: 25px;
+
+}
+.titles a
+{
+	text-decoration: none;
+	color: white;
+}
+.titles a:hover
+{
+	color: gold;
+	font-weight: 800;
+}
+
+.back
+{
+	height: 90px;
+	padding: 50px 40px;
+}
+#btn
+{
+	padding: 10px 25px;
+	background-color: black;
+	width: 90px;
+	height: 45px;
+	
+	border-radius: 5px;
+	margin-left: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	display: inline;
+	text-decoration: none;
+	color: white;
+	font-family: candara;
+	font-weight: 500;
+	
+}
+#btn:hover
+{
+	background-color: gold;
+	border:1px solid black;
+	color:black;
+}
+
+.main
+{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    background:transparent;
+    
+    width: 90%;
+    margin: 20px;
+
+}
+.image
+{
+	margin: 10px 20px;
+	
+	
+}
+.image img
+{
+	width: 430px;
+	height: 530px;
+
+}
+.paragraph
+{
+	margin: 10px 20px;
+	padding-bottom: 40px;
+	background:transparent;
+	font-family: candara;
+	color: white;
+	
+}
+.name
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-family: 'Kanit', sans-serif;
+	background:transparent;
+	
+}
+.star
+{
+	margin-bottom: 20px;
+	font-size: 20px;
+	background:transparent;
+}
+.release {
+	margin-bottom: 20px;
+	font-size: 20px;
+	background:transparent;
+}
+.para
+{
+	line-height: 1.4em;
+	font-size: 20px;
+	background:transparent;
+
+}
+.genre
+{
+	margin-top:25px;
+	margin-bottom: 15px;
+	background:transparent;
+}
+.genres
+{
+	margin-bottom: 10px;
+	background:transparent;
+}
+.info
+{
+	width: 90%;
+	margin: auto;
+	color: white;
+	font-family: candara;
+	padding-top: 15px;
+	margin-top: 30px;
+	background-color: transparent;
+
+}
+.info h1
+{
+	text-align: center;
+	margin-bottom: 15px;
+	color: white;
+}
+.info p
+{
+	border-bottom:0.1px solid dimgray;
+	width: 100%;
+	padding: 11px 0px;
+	font-size: 22px;
+	color: white;
+}
+.spann
+{
+	color: gold;
+	font-size: 20px; 
+
+}
+
+
+.footer
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 50px;
+	height: 90px;
+	background-color: black;
+	margin-top: 15px;
+}
+
+.social-links
+{
+	display: flex;
+	flex-direction: row;
+	color:white;
+}
+.social-links i
+{
+	padding: 15px 5px;
+	font-size: 20px;
+}
+.social-links a
+{
+	color: white;
+	text-decoration: none;
+}
+.social-links a:visited
+{
+	color: white;
+
+}
+.social-links i:hover
+{
+	cursor: pointer;
+	color: gold;
+
+}
+.overlay
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	height: 175vh;
+	width: 100vw;
+	filter: brightness(0.25); /*VERY VERY IMPORTANT, USEFUL AND UNIQUE,, makes the background
+	DARKER, unlike opacity which fades the bg also affecting the text if it is white*/
+
+}
+
